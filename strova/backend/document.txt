@@ -1,0 +1,38 @@
+// Tue Sep 8 17:00
+This project was built uisng this tutorial:
+https://www.mongodb.com/blog/post/building-an-exercise-tracker-mern-tutorial?utm_campaign=Int_CLD_MERN%20Stack%20Tutorial_06_20_WW_Autoresponder&utm_source=eloqua&utm_medium=email&utm_term=Learn%20the%20MERN%20Stack%20with%20MongoDB%20Atlas
+
+// Wed Sep 9 11:00
+the env file will only connect with non-admin user password. 
+The <password><username><dbname> has to have the carats replaced. 
+I recommend that future users check the .env file for connection referances
+solution found here: https://stackoverflow.com/questions/52728454/connecting-mongoose-to-mongodb-atlas-and-nodejs 
+
+
+// Sat Sep 12
+JSON Exercises Post http://localhost:5000/exercises/add
+{  
+    "username": "beau",  
+    "description": "bike ride",
+    "gearName": "beau bike",
+    "duration": 20,  
+    "date": "2020-05-10T21:20:20.2020"  
+    }
+
+//JSON User Add http://localhost:5000/users/add
+ {  
+    "username": "beau"  
+    }
+
+/*JSON Gear Add http://localhost:5000/gear/add
+ {  
+    "gearName": "beau bike",
+	"gearType": "bikeTest"
+    }
+*/
+
+//Sun Sep 14
+To start the server
+Open two terminal tabs:
+In tab one: CD to strova/backend then 'nodemon server' will start the server.js <This connects to MongoDB>
+In tab two: CD to strova then 'npm start' will start the server as well <this does somthing as well>
